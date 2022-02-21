@@ -1,0 +1,5 @@
+insert into user_accounts (user_id, first_name, last_name, email, plate_number, password) values (nextval('user_accounts_seq'), 'John', 'Warton', 'warton@gmail.com','POZ1456','pass');
+insert into user_accounts (user_id, first_name, last_name, email, plate_number, password) values (nextval('user_accounts_seq'), 'miki', 'ahme', 'miki@gmail.com','WAR76567','pass');
+insert into user_accounts (user_id, first_name, last_name, email, plate_number, password) values (nextval('user_accounts_seq'), 'Hermi', 'krbr', 'hermi@gmail.com','WRO09478','pass');
+insert into user_accounts (user_id, first_name, last_name, email, plate_number, password) values (nextval('user_accounts_seq'), 'rich', 'eshe', 'rich@gmail.com','GDA64775','pass');
+insert into user_accounts (user_id, first_name, last_name, email, plate_number, password) values (nextval('user_accounts_seq'), 'eyob', 'ayalew', 'eyon@gmail.com','POL5466','pass');
