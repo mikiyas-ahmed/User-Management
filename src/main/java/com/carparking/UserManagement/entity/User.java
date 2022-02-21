@@ -8,8 +8,6 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-import org.springframework.validation.annotation.Validated;
-
 import com.sun.istack.NotNull;
 
 
@@ -24,7 +22,7 @@ public class User {
 	@Column(name = "user_id")
 	private long userID;
 	
-	@NotNull
+	@Column(nullable = false)
 	private String firstName;
 	
 	@NotNull
